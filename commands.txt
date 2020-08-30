@@ -1,0 +1,14 @@
+npm init
+npm install lite-server --save-dev  # using this for the development purposes
+
+go to package.json file created during the (npm init) and in the 
+scripts add this: 
+script:
+{ "start": "npm run lite","lite":"lite-server" }
+So start is a command that NPM supports which enables you to specify a bunch of things that will be started
+"lite", which I will configure as "lite-server", 
+# lite-server does auto sync of html files etc in the folder
+
+
+
+
